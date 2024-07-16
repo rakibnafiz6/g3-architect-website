@@ -179,9 +179,11 @@ font-weight: 700;
     font-size:1.25rem ;
     margin-top: 10px;
 }
+
 .fact-discription{
   max-width: 540px;
   margin-bottom: 100px;
+  
 }
 /* sponsor related styles */
 .sponsor-info{
@@ -193,9 +195,29 @@ font-weight: 700;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 150px;
+    margin-bottom: 130px;
 }
 .sponsor-company img{
     filter: grayscale(100%);
+}
+/* footer related styles */
+.footer-section{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   
+}
+
+
+.footer-container{
+   width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+    
+    
+    
 }
 
 
